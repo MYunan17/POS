@@ -27,3 +27,4 @@ Route::get('/penjualan', [SalesController::class, 'index']);
 
 route::get('/level',[LevelController::class,'index']);
 route::get('/kategori',[KategoriController::class,'index']);
+route::get('/user',[UserController::class,'index']);

@@ -6,6 +6,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\SalesController;
 use App\Http\Controllers\LevelController;
+use App\Http\Controllers\KategoriController;
 
 Route::get('/', [HomeController::class, 'index']);
 
@@ -25,3 +26,4 @@ Route::get('/penjualan', [SalesController::class, 'index']);
 // });
 
 route::get('/level',[LevelController::class,'index']);
+route::get('/kategori',[KategoriController::class,'index']);
